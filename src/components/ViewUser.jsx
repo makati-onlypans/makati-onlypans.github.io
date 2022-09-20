@@ -37,7 +37,7 @@ const Viewuser = () => {
                                         <img className="img-fluid" src={photo} alt="logo" />
                                         {/* <img style={{ width: 300, height: 300 }} src={photo} alt="logo" /> */}
                                     </div>
-                                    <div className="col-md-6 align-text-top">
+                                    <div className="col-md-6 align-text-top form-floating">
                                         <h5>Name:{name}</h5>
                                         <h5>Description:{description}</h5>
                                         <h5>Price:P{price}</h5>
