@@ -43,7 +43,7 @@ const Allusers = () => {
                     {
                         user.map((data) => (
                             <div className="col-md-4">
-                                <div className="card my-2 list-group-item-success shadow-lg">
+                                <div className="card my-2 shadow-lg">
                                     <div className="card-body">
                                         <div className="align-items-center">
                                             <div className="col-sm-12">
@@ -51,9 +51,9 @@ const Allusers = () => {
                                             </div>
                                             <div className="col-sm-12">
                                                 <ul className="list-group text-center">
-                                                    <li className="list-group-item">Title: <br /> <span className="fw-bold">{data.name}</span></li>
-                                                    <li className="list-group-item">Description: <span className="fw-bold">{data.description}</span></li>
-                                                    <li className="list-group-item">Price: <span className="fw-bold">{data.price}</span></li>
+                                                    <h5 className="card-title mb-1">{data.name}</h5>
+                                                    {/* <p class="col card-text">{data.description}</p> */}
+                                                    <p class="col card-text">P{data.price}</p>
                                                 </ul>
                                             </div>
                                             <div className="col-sm-12 d-flex gap-3 justify-content-center align-items-center">
