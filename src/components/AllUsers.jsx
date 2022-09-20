@@ -42,7 +42,7 @@ const Allusers = () => {
                 <div className="row">
                     {
                         user.map((data) => (
-                            <div className="col-md-3">
+                            <div className="col-md-4">
                                 <div className="card my-2 list-group-item-success shadow-lg">
                                     <div className="card-body">
                                         <div className="align-items-center">
