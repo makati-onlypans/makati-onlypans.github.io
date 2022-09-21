@@ -4,6 +4,7 @@ import { getAllDept } from '../service/api';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from './NavBar';
+import Form from 'react-bootstrap/Form';
 const userCapturedVal = {
     name: "",
     description: "",
@@ -44,33 +45,62 @@ const Adduser = () => {
         <div className="container mt-3">
             <Navbar />
 
-            <h1>Add Contact</h1>
-            <div className="row justify-content-center">
+            <h1>Add Menu</h1>
+            <div className="row d-flex justify-content-center">
                 <div className='card'>
                     <div className="col-md-8">
                         <form>
                             <div className="mb-2">
-                                <input type="text" placeholder="Title"
+                                <Form.Label htmlFor="name">Name</Form.Label>
+                                <Form.Control
+                                    type="text"
+                                    id="name"
+                                    aria-describedby="name"
                                     onChange={(e) => onValueChange(e)} name="name" value={name}
                                 />
+                                {/* <input type="text" size="50" placeholder="Title"
+                                    onChange={(e) => onValueChange(e)} name="name" value={name}
+                                /> */}
                             </div>
                             <div className="mb-2">
-                                <input type="text" placeholder="Photo Url"
+                                <Form.Label htmlFor="photo">Photo HTML Link</Form.Label>
+                                <Form.Control
+                                    type="text"
+                                    id="photo"
+                                    aria-describedby="photo"
                                     onChange={(e) => onValueChange(e)} name="photo" value={photo}
                                 />
+                                {/* <input type="text" placeholder="Photo Url"
+                                    onChange={(e) => onValueChange(e)} name="photo" value={photo}
+                                /> */}
                             </div>
                             <div className="mb-2">
-                                <input type="text" placeholder="Price"
+                                <Form.Label htmlFor="price">Price</Form.Label>
+                                <Form.Control
+                                    type="text"
+                                    id="price"
+                                    aria-describedby="price"
                                     onChange={(e) => onValueChange(e)} name="price" value={price}
                                 />
+                                {/* <input type="text" placeholder="Price"
+                                    onChange={(e) => onValueChange(e)} name="price" value={price}
+                                /> */}
                             </div>
                             <div className="mb-2">
-                                <input type="text" placeholder="Description"
+                                <Form.Label htmlFor="description">Description</Form.Label>
+                                <Form.Control
+                                    type="description"
+                                    id="description"
+                                    aria-describedby="description"
                                     onChange={(e) => onValueChange(e)} name="description" value={description}
                                 />
+
+                                {/* <input type="text" placeholder="Description"
+                                    onChange={(e) => onValueChange(e)} name="description" value={description}
+                                /> */}
                             </div>
                             <div className="mb-2">
-                                <select onChange={(e) => onValueChange(e)} name="department" value={department}>
+                                <Form.Select onChange={(e) => onValueChange(e)} name="department" value={department}>
                                     <option disabled>Select Group</option>
                                     {
                                         deptName.map((data) => (
@@ -78,7 +108,7 @@ const Adduser = () => {
                                         ))
                                     }
 
-                                </select>
+                                </Form.Select>
                             </div>
                             <div className="mb-2">
                                 <input type="sumbit" className="btn btn-primary" value="Create" onClick={() => addUserDetails()} />

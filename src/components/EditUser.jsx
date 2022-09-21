@@ -52,16 +52,17 @@ const Edituser = () => {
     return (
         <div className="container mt-3">
             <Navbar />
-            <h1>Add Contact</h1>
-            <div className="row d-flex">
-                <form>
+            <h1>Edit Menu</h1>
+            <form>
+                <div className='d-flex flex-md-row flex-sm-column gap-3'>
                     <div>
-                        <div class="col-md-4">
-                            <img style={{ with: 200, height: 200 }} src={photo} alt="logo" />
+                        <div>
+                            <img className="img-fluid img-rounded" style={{ with: 350, height: 350 }} src={photo} alt="logo" />
+                            {/* <img style={{ with: 200, height: 200 }} src={photo} alt="logo" /> */}
                         </div>
                     </div>
                     <div>
-                        <div className="mb-2 form-floating">
+                        <div className="mb-2">
                             <input type="text" placeholder="Title"
                                 onChange={(e) => onValueChange(e)} name="name" value={name}
                             />
@@ -95,9 +96,9 @@ const Edituser = () => {
                             <input type="sumbit" className="btn btn-primary" value="Update" onClick={() => editUserDetails()} />
                         </div>
                     </div>
-                </form>
-            </div>
-        </div>
+                </div>
+            </form>
+        </div >
     );
 }
 
