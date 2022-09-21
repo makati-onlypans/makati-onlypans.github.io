@@ -60,12 +60,12 @@ export default function UserAboutUs () {
 
             
                 <h5 className="fs-3 text-center mx-2 mb-4"> Location Map</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.621015610933!2d121.02928795048636!3d14.563651989776085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c96b4c1d5447%3A0xbddd5f124b4d3a35!2sOnlypans%20Taqueria%20Poblacion!5e0!3m2!1sen!2sph!4v1663731544660!5m2!1sen!2sph" width="600" height="450" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe className="border border-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.621015610933!2d121.02928795048636!3d14.563651989776085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c96b4c1d5447%3A0xbddd5f124b4d3a35!2sOnlypans%20Taqueria%20Poblacion!5e0!3m2!1sen!2sph!4v1663731544660!5m2!1sen!2sph" width="600" height="450" style={{ border: "10" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
 
             <div className="col-12 border-1 border-dark flex-fill textForm">
-                <div className="col border-1 border-dark">
+                <div className="col border-1 border-dark p-1" style={{borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.02)'}}>
                     <h5 className="fs-3 ms-2 text-center"> Contact Us</h5>
                     <div className="container mt-2">
                         <form action="https://formspree.io/f/xvoygrjr" id="test-form" method="POST">
