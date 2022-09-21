@@ -42,7 +42,7 @@
 /* image animation end */
 
 /* events start */
-/* .cardI {
+.cardI {
     transition: 0.5s;
     cursor: pointer;
     border: 0px;
@@ -72,11 +72,11 @@
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* .card-text {
+.card-text-event {
     height: 80px;
-} */
+}
 
-/* .cardI::before,
+*/ .cardI::before,
 .cardI::after {
     position: absolute;
     top: 0;
@@ -111,7 +111,7 @@
 
 }
 
-.card-body div {
+.card-event div {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -129,11 +129,11 @@
     cursor: pointer;
 }
 
-.card-body:hover div {
+.card-event:hover div {
     padding: 15px 15px;
     visibility: visible;
     opacity: 0.7;
-} */
+}
 
 
 /* events end */

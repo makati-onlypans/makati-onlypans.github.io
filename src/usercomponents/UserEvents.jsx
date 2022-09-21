@@ -36,12 +36,12 @@ export default function UserEvents() {
                                                 className="img-fluid rounded-start content_img" alt="poster" />
                                         </div>
                                         <div className="col-md-12">
-                                            <div className="card-body">
+                                            <div className="card-body card-event">
                                                 <div>
                                                     <h5 className="card-title cardTitle fs-3">Sampiro Festival</h5>
                                                     <h5 className="card-title cardTitle">Poblacion Fiesta x Street Party</h5>
                                                     <h5 className="card-title cardTitle">Date: 07-02-2022</h5>
-                                                    <p className="card-text">So thrilled to hit the streets with this awesome
+                                                    <p className="card-text card-text-event">So thrilled to hit the streets with this awesome
                                                         neighborhood!
                                                         💙
                                                         Tomorrow, 0702, come join us as we bring back the iconic Población
@@ -63,14 +63,14 @@ export default function UserEvents() {
                                                 className="img-fluid rounded-start content_img" alt="events" />
                                         </div>
                                         <div className="col-md-12">
-                                            <div className="card-body">
+                                            <div className="card-body card-event">
                                                 <div>
                                                     <h5 className="card-title cardTitle fs-3">onlypans Pop-Up Shop</h5>
                                                     <h5 className="card-title cardTitle">The Courtyard, Molito Lifestyle Center,
                                                         Alabang
                                                     </h5>
                                                     <h5 className="card-title cardTitle">Date: Aug 19 & 20</h5>
-                                                    <p className="card-text">South friends!!! We’ll be having our first ever pop up
+                                                    <p className="card-text card-text-event">South friends!!! We’ll be having our first ever pop up
                                                         kitchen
                                                         on
                                                         Friday & Saturday at Molito! We’re serving our Birria, Smoked Meat,
@@ -100,12 +100,12 @@ export default function UserEvents() {
                                                 className="img-fluid content_img rounded-start" alt="poster" />
                                         </div>
                                         <div className="col-md-12">
-                                            <div className="card-body">
+                                            <div className="card-body card-event">
                                                 <div>
                                                     <h5 className="card-title cardTitle fs-3">Taco for a Cause</h5>
                                                     <h5 className="card-title cardTitle">100% total sales will be donated</h5>
                                                     <h5 className="card-title cardTitle">Date: 12-28-2021</h5>
-                                                    <p className="card-text">Come say hi at New Deli by Kashmir - Sitio Uno, Lio
+                                                    <p className="card-text card-text-event">Come say hi at New Deli by Kashmir - Sitio Uno, Lio
                                                         Estate,
                                                         El
                                                         Nido
@@ -128,12 +128,12 @@ export default function UserEvents() {
                                                 className="img-fluid content_img rounded-start" alt="events" />
                                         </div>
                                         <div className="col-md-12">
-                                            <div className="card-body">
+                                            <div className="card-body card-event">
                                                 <div>
                                                     <h5 className="card-title cardTitle fs-3">Metro Manila Pride</h5>
                                                     <h5 className="card-title cardTitle">Poblacion, Makati City</h5>
                                                     <h5 className="card-title cardTitle">Date: June 24</h5>
-                                                    <p className="card-text">A part of our proceeds will benefit Metro Manila Pride
+                                                    <p className="card-text card-text-event">A part of our proceeds will benefit Metro Manila Pride
                                                         Organization, in support of the organization and our friends from the
                                                         LGBTQIA+
                                                         community.
