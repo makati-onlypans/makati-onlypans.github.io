@@ -3,6 +3,7 @@ import { getAllUsers, deleteUser } from '../service/api';
 import { Link } from 'react-router-dom';
 import Navbar from './NavBar';
 import Image from 'react-bootstrap/Image';
+import './Admin.css'
 
 const Allusers = () => {
     const [user, setUser] = useState([]);
@@ -53,20 +54,20 @@ const Allusers = () => {
                                             </div>
                                             <div className="col-sm-12">
                                                 <ul className="list-group text-center">
-                                                    <h5 className="card-title mb-1">{data.name}</h5>
+                                                    <h5 className="card-title mb-1 animate-charcter">{data.name}</h5>
                                                     {/* <p class="col card-text">{data.description}</p> */}
                                                     <p class="col card-text">P{data.price}</p>
                                                 </ul>
                                             </div>
                                             <div className="col-sm-12 d-flex gap-3 justify-content-center align-items-center">
-                                                <Link className="btn btn-warning my-1" to={`/view/${data.id}`}>
-                                                    <i className="fa fa-eye"></i>
+                                                <Link className="btn btn-danger my-1" to={`/view/${data.id}`}>
+                                                    <i className="fa fa-solid fa-fade fa-xl fa-eye"></i>
                                                 </Link>
-                                                <Link className="btn btn-primary my-1" to={`/edit/${data.id}`}>
-                                                    <i className="fa fa-pen"></i>
+                                                <Link className="btn btn-danger my-1" to={`/edit/${data.id}`}>
+                                                    <i className="fa fa-solid fa-fade fa-xl fa-pen"></i>
                                                 </Link>
                                                 <button className="btn btn-danger my-1" onClick={() => deleteData(data.id)}>
-                                                    <i className="fa fa-trash"></i>
+                                                    <i className="fa fa-solid fa-fade fa-xl fa-trash"></i>
                                                 </button>
                                             </div>
                                         </div>
