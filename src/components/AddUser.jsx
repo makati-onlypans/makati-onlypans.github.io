@@ -46,10 +46,11 @@ const Adduser = () => {
             <Navbar />
 
             <h1>Add Menu</h1>
-            <div className="row d-flex justify-content-center">
-                <div className='card'>
-                    <div className="col-md-8">
-                        <form>
+
+            <div className='card border-none'>
+                <div className="col-md-12">
+                    <form className='m-3 p-2'>
+                        <div className="row d-flex justify-content-center">
                             <div className="mb-2">
                                 <Form.Label htmlFor="name">Name</Form.Label>
                                 <Form.Control
@@ -57,6 +58,7 @@ const Adduser = () => {
                                     id="name"
                                     aria-describedby="name"
                                     onChange={(e) => onValueChange(e)} name="name" value={name}
+                                    className="border-danger"
                                 />
                                 {/* <input type="text" size="50" placeholder="Title"
                                     onChange={(e) => onValueChange(e)} name="name" value={name}
@@ -69,6 +71,7 @@ const Adduser = () => {
                                     id="photo"
                                     aria-describedby="photo"
                                     onChange={(e) => onValueChange(e)} name="photo" value={photo}
+                                    className="border-danger"
                                 />
                                 {/* <input type="text" placeholder="Photo Url"
                                     onChange={(e) => onValueChange(e)} name="photo" value={photo}
@@ -81,6 +84,7 @@ const Adduser = () => {
                                     id="price"
                                     aria-describedby="price"
                                     onChange={(e) => onValueChange(e)} name="price" value={price}
+                                    className="border-danger"
                                 />
                                 {/* <input type="text" placeholder="Price"
                                     onChange={(e) => onValueChange(e)} name="price" value={price}
@@ -93,6 +97,7 @@ const Adduser = () => {
                                     id="description"
                                     aria-describedby="description"
                                     onChange={(e) => onValueChange(e)} name="description" value={description}
+                                    className="border-danger"
                                 />
 
                                 {/* <input type="text" placeholder="Description"
@@ -100,26 +105,27 @@ const Adduser = () => {
                                 /> */}
                             </div>
                             <div className="mb-2">
-                                <Form.Select onChange={(e) => onValueChange(e)} name="department" value={department}>
+                                <Form.Label htmlFor="department">Select Group</Form.Label>
+                                <Form.Select onChange={(e) => onValueChange(e)} name="department" value={department} className="border-danger">
                                     <option disabled>Select Group</option>
                                     {
                                         deptName.map((data) => (
                                             <option value={data.departmentName}>{data.departmentName}</option>
                                         ))
                                     }
-
                                 </Form.Select>
                             </div>
-                            <div className="mb-2">
-                                <input type="sumbit" className="btn btn-primary" value="Create" onClick={() => addUserDetails()} />
+                            <div className="mt-2 mb-2">
+                                <input type="sumbit" className="btn btn-danger" value="Create" onClick={() => addUserDetails()} />
                             </div>
-                        </form>
-                    </div>
-                    {/* <div class="col-md-4">
-                <img style={{with: 200, height:200}} src={photo} alt="logo"/>
-            </div>  */}
+                        </div>
+                    </form>
                 </div>
+                {/* <div class="col-md-4">
+                    <img style={{ with: 200, height: 200 }} src={photo} alt="logo" />
+                </div> */}
             </div>
+
         </div>
     );
 }
