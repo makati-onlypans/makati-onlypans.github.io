@@ -74,7 +74,7 @@ function UserHome() {
                     <p className="fs-4">
                         Order Online:
                     </p>
-                        <div className="container d-flex justify-content-center text-center" style={{borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.09)'}}>
+                        <div className="container d-flex justify-content-center text-center border border-2" style={{borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.09)'}}>
                 <a href="https://www.foodpanda.com/"><img src="/img/foodpandalogo.svg" style={{width: 100, height: 100}} alt="" /></a><br/>
                 <div className="vr mx-5"></div>
                 <a href="https://food.grab.com/"><img src="/img/GrabFoodLogo.svg" style={{width: 100, height: 100}} alt="" /></a><br/>
