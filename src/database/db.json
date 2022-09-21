@@ -95,6 +95,22 @@
       "photo": "https://scontent.ffjr1-6.fna.fbcdn.net/v/t39.30808-6/307922528_604095548121468_8560366636331645458_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0debeb&_nc_ohc=Plj3IY2WbhgAX_GCUfh&_nc_ht=scontent.ffjr1-6.fna&oh=00_AT-SxBuwa_5f-JMSTf4k53thjJXwQES1I7JMGXAt8dS7XA&oe=632E16B1",
       "department": "Extras",
       "id": 12
+    },
+    {
+      "name": "Pescado Taco",
+      "description": "Fish meat in house special marinade, dipped in beer batter & served with home made coleslaw, alfalfa, red radish & pickled onions.",
+      "price": "300",
+      "photo": "https://scontent.fdxb1-1.fna.fbcdn.net/v/t39.30808-6/307120423_604095708121452_52043229418761408_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0debeb&_nc_ohc=Y2CDQu4NSR0AX8Bmsb5&_nc_ht=scontent.fdxb1-1.fna&oh=00_AT86YcvBAkHqeFmn0LJgAIdJbCGdVePIyPgWUCdf62rOQw&oe=632FE5A3",
+      "department": "",
+      "id": 13
+    },
+    {
+      "name": "Tacolitos Plato",
+      "description": "In this selection we present to you 8 sampler tacos, flavor based on your selection.",
+      "price": "1200",
+      "photo": "https://scontent.fdxb1-1.fna.fbcdn.net/v/t39.30808-6/307309065_604095954788094_3874222251951500164_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0debeb&_nc_ohc=mcSMJt4yCS8AX_0BD5h&_nc_ht=scontent.fdxb1-1.fna&oh=00_AT9f2879MnAmW8jOkIdjrlIQvANzE9R_mMnMirMTtzsVNw&oe=6330AAAE",
+      "department": "Side Menu",
+      "id": 14
     }
   ],
   "department": [
