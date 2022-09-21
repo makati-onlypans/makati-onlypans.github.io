@@ -30,7 +30,7 @@ const Viewuser = () => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-10">
-                        <div className="card my-2">
+                        <div className="card my-2 border-danger">
                             <div className="card-body">
                                 <div className="row align-items-center">
                                     <div className="col-md-6">
@@ -39,9 +39,9 @@ const Viewuser = () => {
                                     </div>
                                     <div className="col-md-6 align-text-top form-floating">
                                         <h3>{name}</h3>
-                                        <p className='fs-5'>{description}</p>
-                                        <p className='fs-5'>Price:P{price}</p>
-                                        <p className='fs-5'>Category:{departmentName}</p>
+                                        <p className='fs-5 mt-3'>{description}</p>
+                                        <p className='fs-5 mt-3'>Price:P{price}</p>
+                                        {/* <p className='fs-5'>Category:{departmentName}</p> */}
                                     </div>
                                 </div>
                             </div>

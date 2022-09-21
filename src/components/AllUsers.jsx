@@ -24,7 +24,7 @@ const Allusers = () => {
             <Navbar />
             <h1>All Records</h1>
             <div className="container">
-                <Link className='btn btn-primary mb-2' to={'/add'}><i className="fa fa-plus-circle"></i> Add Menu</Link>
+                <Link className='btn btn-danger mb-2' to={'/add'}><i className="fa fa-plus-circle"></i> Add Menu</Link>
                 {/* <form>
                     <div className="row mb-5">
                         <div className="col-md-6">
@@ -45,7 +45,7 @@ const Allusers = () => {
                     {
                         user.map((data) => (
                             <div className="col-md-4">
-                                <div className="card my-2 shadow-lg">
+                                <div className="card my-2 shadow-lg border-danger">
                                     <div className="card-body">
                                         <div className="align-items-center">
                                             <div className="col-sm-12">
