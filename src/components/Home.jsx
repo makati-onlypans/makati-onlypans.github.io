@@ -4,7 +4,7 @@ import UserFooter from '../usercomponents/UserFooter';
 import UserHome from '../usercomponents/UserHome';
 const Home = () => {
     return (
-        <div className='container'>
+        <div className='container-fluid m-0 p-0'>
             <UserNavbar/>
             <UserHome/>
             <UserFooter/>
