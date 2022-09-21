@@ -34,14 +34,14 @@ const Viewuser = () => {
                             <div className="card-body">
                                 <div className="row align-items-center">
                                     <div className="col-md-6">
-                                        <img className="img-fluid" src={photo} alt="logo" />
+                                        <img className="img-fluid img-rounded" src={photo} alt="logo" />
                                         {/* <img style={{ width: 300, height: 300 }} src={photo} alt="logo" /> */}
                                     </div>
                                     <div className="col-md-6 align-text-top form-floating">
-                                        <h5>Name:{name}</h5>
-                                        <h5>Description:{description}</h5>
-                                        <h5>Price:P{price}</h5>
-                                        <h5>Category:{departmentName}</h5>
+                                        <h3>{name}</h3>
+                                        <p className='fs-5'>{description}</p>
+                                        <p className='fs-5'>Price:P{price}</p>
+                                        <p className='fs-5'>Category:{departmentName}</p>
                                     </div>
                                 </div>
                             </div>
