@@ -35,6 +35,7 @@ export default function UserAboutUs () {
     <div className="container">
         <div className="text-center my-5 p-5 ourStory border border-2" style={{borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.02)'}}>
                 <p className="fw-bold fs-2">Our Story</p>
+                <hr className="w-25 mx-auto my-4"/>
             <div className="container w-75">
                 <p>Before being none for its tacos Onlypans started, not with a physical restaurant establishment as it is
                     today, but as a food delivery business with only one recipe: sushi bake. This was during the height of
