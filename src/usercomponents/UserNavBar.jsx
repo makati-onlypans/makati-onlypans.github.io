@@ -1,12 +1,31 @@
 import React from "react";
 // import {Link} from 'react-router-dom';
 import './UserNavBar.css';
+import { Link, useNavigate } from 'react-router-dom'
 
 const UserNavBar = ()=>{
+  const navigate = useNavigate()
+
+
+  const onHome = () => {
+    navigate('/home')
+  }
+
+  const onMenu = () => {
+    navigate('/usermenu')
+  }
+
+  const onEvents = () => {
+    navigate('/userevents')
+  }
+
+  const onAboutUs = () => {
+    navigate('/useraboutus')
+  }
 
 
     return (
-      <div className="container m-0 p-0">
+      <div className="container-fluid m-0 p-0">
 <nav className="custom-className-main-nav navbar sticky-top navbar-expand-lg p-3 shadow bg-white borderless">
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -14,19 +33,19 @@ const UserNavBar = ()=>{
     <div className="custom-className-logo-top collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="custom-className-logo-top nav-item">
-          <a id="homeicon" className="custom-className-logo-top nav-link active" aria-current="page" ><img className="custom-className-logo-top" src="/img/onlypansprofilepicture.jpeg" alt="" /></a>
+          <a id="homeicon" className="custom-className-logo-top nav-link active" aria-current="page" ><img className="custom-className-logo-top" src="/img/onlypansprofilepicture.jpeg" alt=""  onClick={onHome}/></a>
           <hr className="custom-className-logo-top-hr"></hr>
         </li>
       </ul>
       <ul className="custom-className-navbar-gap navbar-nav mb-2 mb-lg-0">
         <li className="nav-item text-center">
-          <a id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" >Menu</a>
+          <a id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onMenu}>Menu</a>
         </li>
         <li className="nav-item text-center">
-          <a id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" >Events</a>
+          <a id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onEvents}>Events</a>
         </li>
         <li className="nav-item text-center">
-          <a id="custom-className-hover-a" className="fs-5 nav-link" >About Us</a>
+          <a id="custom-className-hover-a" className="fs-5 nav-link" onClick={onAboutUs}>About Us</a>
         </li>
       
       <li className="custom-className-dropdown nav-item dropdown">
