@@ -6,7 +6,7 @@ const UserNavBar = ()=>{
 
 
     return (
-      <>
+      <div className="container m-0 p-0">
 <nav className="custom-className-main-nav navbar sticky-top navbar-expand-lg p-3 shadow bg-white borderless">
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -52,7 +52,7 @@ const UserNavBar = ()=>{
     </ul>
     </div>
 </nav>
-</>
+</div>
     )
 }
 export default UserNavBar
