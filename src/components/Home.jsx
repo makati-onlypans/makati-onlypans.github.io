@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './NavBar';
+import UserNavbar from '../usercomponents/UserNavBar'
 const Home = () => {
     return (
         <div className='container'>
-            <Navbar/>
+            <UserNavbar/>
             <h1>Home</h1>
         </div>
     );
