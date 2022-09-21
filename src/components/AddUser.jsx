@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from './NavBar';
 import Form from 'react-bootstrap/Form';
+import './Admin.css'
 const userCapturedVal = {
     name: "",
     description: "",
@@ -44,10 +45,8 @@ const Adduser = () => {
     return (
         <div className="container mt-3">
             <Navbar />
-
-            <h1>Add Menu</h1>
-
-            <div className='card border-none'>
+            <h1 className="AdminHeading">Add Menu Items</h1>
+            <div className='card border-danger shadow-lg'>
                 <div className="col-md-12">
                     <form className='m-3 p-2'>
                         <div className="row d-flex justify-content-center">

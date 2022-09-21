@@ -6,9 +6,7 @@ import { getAllDept } from '../service/api';
 import { useNavigate, useParams } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 const userCapturedVal = {
     name: "",
     description: "",
@@ -57,81 +55,81 @@ const Edituser = () => {
     return (
         <div className="container mt-3">
             <Navbar />
-            <h1>Edit Menu</h1>
+            <h1 className="AdminHeading">Edit Menu</h1>
             <form>
-                <Container >
-                    <Row>
-                        <Col>
-                            <div>
-                                <Image className="img-fluid img-rounded" rounded style={{ with: 350, height: 350 }} src={photo} alt="logo" />
-                                {/* <img style={{ with: 200, height: 200 }} src={photo} alt="logo" /> */}
-                            </div>
-                        </Col>
-                        <Col>
-                            <div className="mb-2">
-                                <Form.Label htmlFor="name">Name</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    id="name"
-                                    aria-describedby="name"
-                                    onChange={(e) => onValueChange(e)} name="name" value={name}
-                                />
-                                {/* <input type="text" placeholder="Title"
+                <div className='container row g-0 d-flex flex-lg-row flex-md-column justify-content-center'>
+                    <div className='col-lg-4 col-md-12 pt-4'>
+                        <Image className="img-fluid img-rounded" rounded src={photo} alt="logo" />
+                        {/* <img style={{ with: 200, height: 200 }} src={photo} alt="logo" /> */}
+                    </div>
+                    <div className='col-lg-7 col-md-12 ms-2'>
+                        <div className="mb-2">
+                            <Form.Label htmlFor="name">Name</Form.Label>
+                            <Form.Control
+                                type="text"
+                                id="name"
+                                aria-describedby="name"
+                                onChange={(e) => onValueChange(e)} name="name" value={name}
+                                className="border-danger"
+                            />
+                            {/* <input type="text" placeholder="Title"
                                 onChange={(e) => onValueChange(e)} name="name" value={name}
                             /> */}
-                            </div>
-                            <div className="mb-2">
-                                <Form.Label htmlFor="photo">Photo HTML Link</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    id="photo"
-                                    aria-describedby="photo"
-                                    onChange={(e) => onValueChange(e)} name="photo" value={photo}
-                                />
-                                {/* <input type="text" placeholder="Photo Url"
+                        </div>
+                        <div className="mb-2">
+                            <Form.Label htmlFor="photo">Photo HTML Link</Form.Label>
+                            <Form.Control
+                                type="text"
+                                id="photo"
+                                aria-describedby="photo"
+                                onChange={(e) => onValueChange(e)} name="photo" value={photo}
+                                className="border-danger"
+                            />
+                            {/* <input type="text" placeholder="Photo Url"
                                 onChange={(e) => onValueChange(e)} name="photo" value={photo}
                             /> */}
-                            </div>
-                            <div className="mb-2">
-                                <Form.Label htmlFor="price">Price</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    id="price"
-                                    aria-describedby="price"
-                                    onChange={(e) => onValueChange(e)} name="price" value={price}
-                                />
-                                {/* <input type="text" placeholder="Price"
+                        </div>
+                        <div className="mb-2">
+                            <Form.Label htmlFor="price">Price</Form.Label>
+                            <Form.Control
+                                type="text"
+                                id="price"
+                                aria-describedby="price"
+                                onChange={(e) => onValueChange(e)} name="price" value={price}
+                                className="border-danger"
+                            />
+                            {/* <input type="text" placeholder="Price"
                                 onChange={(e) => onValueChange(e)} name="price" value={price}
                             /> */}
-                            </div>
-                            <div className="mb-2">
-                                <Form.Label htmlFor="description">Description</Form.Label>
-                                <Form.Control
-                                    type="description"
-                                    id="description"
-                                    aria-describedby="description"
-                                    onChange={(e) => onValueChange(e)} name="description" value={description}
-                                />
-                                {/* <input type="textarea" placeholder="Description"
+                        </div>
+                        <div className="mb-2">
+                            <Form.Label htmlFor="description">Description</Form.Label>
+                            <Form.Control
+                                type="textarea"
+                                id="description"
+                                aria-describedby="description"
+                                onChange={(e) => onValueChange(e)} name="description" value={description}
+                                className="border-danger"
+                            />
+                            {/* <input type="textarea" placeholder="Description"
                                 onChange={(e) => onValueChange(e)} name="description" value={description}
                             /> */}
-                            </div>
-                            <div className="mb-2">
-                                <Form.Select onChange={(e) => onValueChange(e)} name="department" value={department}>
-                                    <option disabled>Select Group</option>
-                                    {
-                                        deptName.map((data) => (
-                                            <option value={data.departmentName}>{data.departmentName}</option>
-                                        ))
-                                    }
-                                </Form.Select>
-                            </div>
-                            <div className="mb-2">
-                                <input type="sumbit" className="btn btn-danger" value="Update" onClick={() => editUserDetails()} />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
+                        </div>
+                        <div className="mb-2">
+                            <Form.Select onChange={(e) => onValueChange(e)} name="department" value={department} className="border-danger">
+                                <option disabled>Select Group</option>
+                                {
+                                    deptName.map((data) => (
+                                        <option value={data.departmentName}>{data.departmentName}</option>
+                                    ))
+                                }
+                            </Form.Select>
+                        </div>
+                        <div className="mb-2">
+                            <input type="sumbit" className="btn btn-danger" value="Update" onClick={() => editUserDetails()} />
+                        </div>
+                    </div>
+                </div>
             </form>
         </div >
     );

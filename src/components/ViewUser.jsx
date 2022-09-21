@@ -26,11 +26,11 @@ const Viewuser = () => {
     return (
         <div className="container mt-3">
             <Navbar />
-            <h1>View</h1>
+            <h1 className="AdminHeading">View</h1>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-10">
-                        <div className="card my-2 border-danger">
+                        <div className="card my-2 border-danger shadow-lg">
                             <div className="card-body">
                                 <div className="row align-items-center">
                                     <div className="col-md-6">
