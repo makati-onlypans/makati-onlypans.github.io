@@ -22,7 +22,7 @@ const Allusers = () => {
     return (
         <div className='container'>
             <Navbar />
-            <h1>All Records</h1>
+            <h1 className="AdminHeading">All Records</h1>
             <div className="container">
                 <Link className='btn btn-danger mb-2' to={'/add'}><i className="fa fa-plus-circle"></i> Add Menu</Link>
                 {/* <form>
