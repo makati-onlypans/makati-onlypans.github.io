@@ -6,7 +6,7 @@ export default function UserEvents(){
     return (
         <>
         <UserNavBar/>
-        <div class="container p-5 border rounded-top rounded-3 shadow-lg">
+        <div class="container p-5 border rounded-top rounded-3 shadow-lg mt-5 mb-5">
         <div>
             <div class="text-center mb-5 p-5">
                 <p class="fw-bold fs-3 eventT">LEGENDARY EVENTS, STUNNING CELEBRATIONS, WORTHY CAUSES</p>

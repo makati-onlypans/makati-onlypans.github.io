@@ -7,17 +7,14 @@ export default function UserAboutUs () {
     return (
 <div className="container-fluid m-0 p-0">
 <UserNavBar/>
-<Carousel>
+
+<Carousel className="mt-5">
       <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="/img/AboutUs1resized.png"
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
         <img
@@ -25,11 +22,6 @@ export default function UserAboutUs () {
           src="/img/AboutUs2resized.png"
           alt="Second slide"
         />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
         <img
@@ -37,13 +29,6 @@ export default function UserAboutUs () {
           src="/img/AboutUs3resized.png"
           alt="Third slide"
         />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
 
