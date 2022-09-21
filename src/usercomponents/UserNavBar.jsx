@@ -33,19 +33,19 @@ const UserNavBar = ()=>{
     <div className="custom-className-logo-top collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="custom-className-logo-top nav-item">
-          <a id="homeicon" className="custom-className-logo-top nav-link active" aria-current="page"><img className="custom-className-logo-top" src="/img/onlypansprofilepicture.jpeg" alt=""  onClick={onHome}/></a>
+          <Link to="/home" id="homeicon" className="custom-className-logo-top nav-link active" aria-current="page"><img className="custom-className-logo-top" src="/img/onlypansprofilepicture.jpeg" alt=""  onClick={onHome}/></Link>
           <hr className="custom-className-logo-top-hr"></hr>
         </li>
       </ul>
       <ul className="custom-className-navbar-gap navbar-nav mb-2 mb-lg-0">
         <li className="nav-item text-center">
-          <a id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onMenu}>Menu</a>
+          <Link to="/usermenu" id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onMenu}>Menu</Link>
         </li>
         <li className="nav-item text-center">
-          <a id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onEvents}>Events</a>
+          <Link to="/userevents" id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onEvents}>Events</Link>
         </li>
         <li className="nav-item text-center">
-          <a id="custom-className-hover-a" className="fs-5 nav-link" onClick={onAboutUs}>About Us</a>
+          <Link to="/useraboutus" id="custom-className-hover-a" className="fs-5 nav-link" onClick={onAboutUs}>About Us</Link>
         </li>
       
         <li className="custom-className-dropdown nav-item dropdown">
