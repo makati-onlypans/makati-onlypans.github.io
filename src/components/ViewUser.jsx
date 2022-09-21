@@ -3,6 +3,7 @@ import { getAllUsers } from '../service/api';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Navbar from './NavBar';
+import './Admin.css'
 const userInitialState = {
     name: "",
     description: "",
@@ -29,20 +30,18 @@ const Viewuser = () => {
             <h1 className="AdminHeading">View</h1>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-md-10">
-                        <div className="card my-2 border-danger shadow-lg">
-                            <div className="card-body">
-                                <div className="row align-items-center">
-                                    <div className="col-md-6">
-                                        <img className="img-fluid img-rounded" src={photo} alt="logo" />
-                                        {/* <img style={{ width: 300, height: 300 }} src={photo} alt="logo" /> */}
-                                    </div>
-                                    <div className="col-md-6 align-text-top form-floating">
-                                        <h3>{name}</h3>
-                                        <p className='fs-5 mt-3'>{description}</p>
-                                        <p className='fs-5 mt-3'>Price:P{price}</p>
-                                        {/* <p className='fs-5'>Category:{departmentName}</p> */}
-                                    </div>
+                    <div className="card my-2 border-danger shadow-lg">
+                        <div className="card-body">
+                            <div className="row align-items-center">
+                                <div className="col-md-6 mb-4">
+                                    <img className="img-fluid img-rounded container1" src={photo} alt="logo" />
+                                    {/* <img style={{ width: 300, height: 300 }} src={photo} alt="logo" /> */}
+                                </div>
+                                <div className="col-md-6 align-text-top form-floating">
+                                    <h3>{name}</h3>
+                                    <p className='fs-5 mt-3'>{description}</p>
+                                    <p className='fs-5 mt-3'>Price:P{price}</p>
+                                    {/* <p className='fs-5'>Category:{departmentName}</p> */}
                                 </div>
                             </div>
                         </div>
