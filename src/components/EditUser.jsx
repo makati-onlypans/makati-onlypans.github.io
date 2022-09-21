@@ -127,7 +127,7 @@ const Edituser = () => {
                                 </Form.Select>
                             </div>
                             <div className="mb-2">
-                                <input type="sumbit" className="btn btn-primary" value="Update" onClick={() => editUserDetails()} />
+                                <input type="sumbit" className="btn btn-danger" value="Update" onClick={() => editUserDetails()} />
                             </div>
                         </Col>
                     </Row>
