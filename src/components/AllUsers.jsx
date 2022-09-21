@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { getAllUsers, deleteUser } from '../service/api';
 import { Link } from 'react-router-dom';
 import Navbar from './NavBar';
+import Image from 'react-bootstrap/Image';
+
 const Allusers = () => {
     const [user, setUser] = useState([]);
     useEffect(() => {
@@ -47,7 +49,7 @@ const Allusers = () => {
                                     <div className="card-body">
                                         <div className="align-items-center">
                                             <div className="col-sm-12">
-                                                <img className='img-fluid mb-2' src={data.photo} alt="logo" />
+                                                <Image className='img-fluid mb-2' rounded src={data.photo} alt="logo" />
                                             </div>
                                             <div className="col-sm-12">
                                                 <ul className="list-group text-center">
