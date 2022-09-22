@@ -53,6 +53,7 @@ export default function UserAboutUs() {
                 </div>
             </div>
 
+
             <hr className="w-75 mx-auto my-5" />
 
             <div className="container mt-5 mb-5 textForm">
