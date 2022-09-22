@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const urlUser = "http://127.0.0.1:8000/user";
-const urlDept= " http://127.0.0.1:8000/department";
+const urlUser = "https://json-server-makati-onlypans.herokuapp.com/user";
+const urlDept= "https://json-server-makati-onlypans.herokuapp.com/department";
 
 export const getAllDept = async (id) => {
     id = id || '';
