@@ -35,7 +35,7 @@ export default function UserView() {
                 <UserNavBar />
                 <h1 className="AdminHeading text-center mt-5 mb-4">Menu Details</h1>
                 <div className="container mb-5" style={{ borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 320 }}></div>
-                <div className="container">
+                <div className="container mb-5">
                     <div className="row justify-content-center">
                         <div className="card my-2 border-danger shadow-lg">
                             <div className="card-body">
