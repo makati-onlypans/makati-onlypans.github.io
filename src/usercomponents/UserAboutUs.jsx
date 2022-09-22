@@ -53,6 +53,9 @@ export default function UserAboutUs() {
                 </div>
             </div>
 
+            <div>
+
+            </div>
 
             <hr className="w-75 mx-auto my-5" />
 
