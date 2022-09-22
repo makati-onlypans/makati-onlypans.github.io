@@ -32,7 +32,7 @@ export default function UserMenu() {
                     <div className="row">
                         {
                             user.map((data) => (
-                                <div className="col-md-4 ">
+                                <div className="col-md-6 ">
                                     <div className="card my-2 shadow-lg container1 border-danger">
                                         <h5 className="titlefont card-title mb-1 fs-2 bg-dark text-white text-center py-4" style={{ borderTopLeftRadius: 5, borderTopRightRadius: 5 }}>{data.name}</h5>
                                         <div className="card-body">
