@@ -1,3 +1,12 @@
+.AdminHeading {
+    font-size: 50px;
+    font-weight: 600;
+    background: #FF0B02;
+    background: linear-gradient(to right, #FF0B02 0%, #AD120F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* image animation start */
 .container1 {
     transition: 0.5s;
