@@ -39,13 +39,13 @@ const UserNavBar = ()=>{
       </ul>
       <ul className="custom-className-navbar-gap navbar-nav mb-2 mb-lg-0">
         <li className="nav-item text-center">
-          <Link to="/usermenu" id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onMenu}>Menu</Link>
+          <Link to="/usermenu" id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onMenu}><i class="fa-solid fa-utensils"></i> Menu</Link>
         </li>
         <li className="nav-item text-center">
-          <Link to="/userevents" id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onEvents}>Events</Link>
+          <Link to="/userevents" id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onEvents}><i class="fa-regular fa-calendar-days"></i> Events</Link>
         </li>
         <li className="nav-item text-center">
-          <Link to="/useraboutus" id="custom-className-hover-a" className="fs-5 nav-link" onClick={onAboutUs}>About Us</Link>
+          <Link to="/useraboutus" id="custom-className-hover-a" className="fs-5 nav-link" onClick={onAboutUs}><i class="fa-solid fa-user"></i> About Us</Link>
         </li>
       
         {/* <li className="custom-className-dropdown nav-item dropdown">

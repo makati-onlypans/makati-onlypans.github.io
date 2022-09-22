@@ -3,7 +3,10 @@ import { getAllUsers } from '../service/api';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Navbar from './NavBar';
+import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 import './Admin.css'
+
 const userInitialState = {
     name: "",
     description: "",
@@ -40,6 +43,11 @@ const Viewuser = () => {
                                     <h3>{name}</h3>
                                     <p className='fs-5 mt-3'>{description}</p>
                                     <p className='fs-5 mt-3'>Price:P{price}</p>
+                                    <Link variant="danger" to='/all'>
+                                            <Button className="fw-bold fs-5" variant="danger">
+                                                Back to Menu
+                                            </Button>
+                                        </Link>
                                     {/* <p className='fs-5'>Category:{departmentName}</p> */}
                                 </div>
                             </div>
