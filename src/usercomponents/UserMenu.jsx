@@ -19,7 +19,7 @@ export default function UserMenu() {
         console.log(response);
         setUser(response.data);
     }
-    
+
 
     // const [show, setShow] = useState(false);
     // const handleClose = () => setShow(false);
@@ -30,7 +30,7 @@ export default function UserMenu() {
             <UserNavBar />
             <div className='container'>
                 <h1 className="AdminHeading text-center mt-5 mb-4">Menu List</h1>
-                <div className="container mb-5" style={{borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 250}}></div>
+                <div className="container mb-5" style={{ borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 250 }}></div>
                 <div className="container mb-5">
                     <div className="row">
                         {
@@ -44,10 +44,10 @@ export default function UserMenu() {
                                                 </div>
                                                 <div className="col-sm-12">
                                                     <ul className="list-group text-center">
-                                                        <h5 className="card-title mb-1">{data.name}</h5>
+                                                        <h5 className="card-title mb-1 fs-4">{data.name}</h5>
                                                         {/* <p class="col card-text">{data.description}</p> */}
-                                                        {/* <p class="col card-text">P{data.price}</p> */}
-                                                        <Link variant="primary" to={`/usermenu/view/${data.id}`}>
+                                                        <p class="col card-text fs-5">P{data.price}</p>
+                                                        <Link variant="danger" to={`/usermenu/view/${data.id}`}>
                                                             See details
                                                         </Link>
                                                         {/* {
@@ -68,7 +68,7 @@ export default function UserMenu() {
                                                             </Modal.Footer>
                                                             </Modal>
                                                         } */}
-                                                        
+
                                                     </ul>
                                                 </div>
                                                 <div className="col-sm-12 d-flex gap-3 justify-content-center align-items-center">

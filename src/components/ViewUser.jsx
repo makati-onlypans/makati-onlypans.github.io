@@ -10,7 +10,6 @@ const userInitialState = {
     price: "",
     photo: "",
     departmentName: ""
-
 }
 const Viewuser = () => {
     const [user, setUser] = useState(userInitialState);
