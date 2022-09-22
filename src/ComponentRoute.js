@@ -19,7 +19,7 @@ const Componentroute = () => {
             <Route path='/useraboutus' element={<UserAboutUs/>}/>
             <Route path='/userevents' element={<UserEvents/>}/>
             <Route path='/usermenu' element={<UserMenu/>}/>
-            <Route path='/view/:id' element={<Viewuser/>}/>
+            <Route path='usermenu/view/:id' element={<Viewuser/>}/>
             <Route path='/edit/:id' element={<Edituser/>}/>
             <Route path='*' element={<Notfound/>}/>
                               

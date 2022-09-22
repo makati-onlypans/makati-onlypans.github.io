@@ -7,19 +7,10 @@ import { getAllUsers } from "../service/api";
 import './style.css'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-
-const userInitialState = {
-    name: "",
-    description: "",
-    price: "",
-    photo: "",
-    departmentName: ""
-}
-
-var globaldataid = '';
-
+import { Link } from 'react-router-dom';
+import Viewuser from '../components/ViewUser';
 export default function UserMenu() {
-    const [products, setUser] = useState([]);
+    const [user, setUser] = useState([]);
     useEffect(() => {
         getUsers();
     }, [])
@@ -28,29 +19,22 @@ export default function UserMenu() {
         console.log(response);
         setUser(response.data);
     }
+    
 
-
-
-
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-
-
-
+    // const [show, setShow] = useState(false);
+    // const handleClose = () => setShow(false);
+    // const handleShow = () => setShow(true);
 
     return (
         <>
             <UserNavBar />
             <div className='container'>
                 <h1 className="AdminHeading text-center mt-5 mb-4">Menu List</h1>
-                <div className="container mb-5" style={{ borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 250 }}></div>
+                <div className="container mb-5" style={{borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 250}}></div>
                 <div className="container mb-5">
                     <div className="row">
                         {
-                            products.map((data) => (
-                                globaldataid = data.id  
+                            user.map((data) => (
                                 <div className="col-md-4 container1">
                                     <div className="card my-2 shadow-lg border-danger">
                                         <div className="card-body">
@@ -63,10 +47,12 @@ export default function UserMenu() {
                                                         <h5 className="card-title mb-1">{data.name}</h5>
                                                         {/* <p class="col card-text">{data.description}</p> */}
                                                         {/* <p class="col card-text">P{data.price}</p> */}
-                                                        <Button variant="primary" onClick={handleShow} variant="danger">
+                                                        <Link variant="primary" to={`/usermenu/view/${data.id}`}>
                                                             See details
-                                                        </Button>
-                                                        <Modal show={show} onHide={handleClose}>
+                                                        </Link>
+                                                        {/* {
+                                                           
+                                                            <Modal show={show} onHide={handleClose}>
                                                             <Modal.Header closeButton>
                                                                 <Modal.Title>{data.name}</Modal.Title>
                                                             </Modal.Header>
@@ -80,7 +66,9 @@ export default function UserMenu() {
                                                                     Close
                                                                 </Button>
                                                             </Modal.Footer>
-                                                        </Modal>
+                                                            </Modal>
+                                                        } */}
+                                                        
                                                     </ul>
                                                 </div>
                                                 <div className="col-sm-12 d-flex gap-3 justify-content-center align-items-center">
