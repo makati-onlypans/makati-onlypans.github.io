@@ -105,8 +105,7 @@ function UserHome() {
                     </div>
                 </div>
             </div>
-            <div class="tagembed-container" style="{{width:100%;height:100%;overflow: auto;}}"><div class="tagembed-socialwall" data-wall-id="64986" view-url="https://widget.tagembed.com/64986?view">  </div>
-                <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script></div>
+            
         </>
     )
 }
