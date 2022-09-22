@@ -31,16 +31,17 @@ export default function UserView() {
 
     return (
         <>
-            <div className="container mt-3">
+            <div className="container-fluid mx-0 p-0">
                 <UserNavBar />
-                <h1 className="AdminHeading">View</h1>
-                <div className="container">
+                <h1 className="AdminHeading text-center mt-5 mb-4">Menu Details</h1>
+                <div className="container mb-5" style={{ borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 320 }}></div>
+                <div className="container mb-5">
                     <div className="row justify-content-center">
                         <div className="card my-2 border-danger shadow-lg">
                             <div className="card-body">
                                 <div className="row align-items-center">
                                     <div className="col-md-6 mb-4">
-                                        <img className="img-fluid img-rounded" src={photo} alt="logo" />
+                                        <img className="img-fluid img-rounded" src={photo} alt="logo" style={{border: '5px solid rgba(0, 0, 0, 0.7)', borderRadius: 10}}/>
                                         {/* <img style={{ width: 300, height: 300 }} src={photo} alt="logo" /> */}
                                     </div>
                                     <div className="col-md-6 align-text-top form-floating">
