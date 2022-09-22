@@ -27,7 +27,7 @@ export default function UserMenu() {
             <UserNavBar />
             <div className='container'>
                 <h1 className="AdminHeading text-center mt-5 mb-4">Our Menu</h1>
-                <div className="container mb-5" style={{ borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 250 }}></div>
+                <div className="container mb-5" style={{ borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 310 }}></div>
                 <div className="container mb-5">
                     <div className="row">
                         {

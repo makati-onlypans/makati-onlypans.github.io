@@ -2,6 +2,7 @@ import React from "react"
 import Carousel from 'react-bootstrap/Carousel';
 import UserFooter from "./UserFooter";
 import UserNavBar from "./UserNavBar";
+import './style.css';
 
 export default function UserAboutUs() {
     return (
@@ -34,7 +35,7 @@ export default function UserAboutUs() {
 
             <div className="container">
                 <div className="text-center my-5 p-5 ourStory border border-2" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.02)' }}>
-                    <p className="fw-bold fs-2">Our Story</p>
+                    <p className="amongus fw-bold fs-1">Our Story</p>
                     <hr className="w-25 mx-auto my-4" />
                     <div className="container w-75">
                         <p>Before being none for its tacos Onlypans started, not with a physical restaurant establishment as it is
@@ -59,14 +60,14 @@ export default function UserAboutUs() {
                     <div className="col-12 border-1 border-dark flex-fill">
 
 
-                        <h5 className="fs-3 text-center mx-2 mb-4"> Location Map</h5>
+                        <h5 className="amongus fs-3 text-center mx-2 mb-4"> Location Map</h5>
                         <iframe className="border border-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.621015610933!2d121.02928795048636!3d14.563651989776085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c96b4c1d5447%3A0xbddd5f124b4d3a35!2sOnlypans%20Taqueria%20Poblacion!5e0!3m2!1sen!2sph!4v1663731544660!5m2!1sen!2sph" width="600" height="450" style={{ border: "10" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
 
                     <div className="col-12 border-1 border-dark flex-fill textForm">
                         <div className="col border-1 border-dark p-1" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.02)' }}>
-                            <h5 className="fs-3 ms-2 text-center"> Contact Us</h5>
+                            <h5 className="amongus fs-3 ms-2 text-center"> Contact Us</h5>
                             <div className="container mt-2">
                                 <form action="https://formspree.io/f/xvoygrjr" id="test-form" method="POST">
                                     <div className="form-group">
