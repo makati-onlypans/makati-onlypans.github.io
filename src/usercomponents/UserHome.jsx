@@ -64,47 +64,48 @@ function UserHome() {
                         <img src="/img/Menu/Home/quesadillas.png" class="card-img-top" alt="..." />
                     </div>
                 </div>
-                <hr className="w-50 mx-auto my-5"/>
+                <hr className="w-50 mx-auto my-5" />
 
 
 
 
-                <div className="container d-md-flex p-5 mb-5" style={{borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.05)'}}>
+                <div className="container d-md-flex p-5 mb-5" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.05)' }}>
                     <div className="container text-center">
-                <Link to="https://www.facebook.com/"><img className="my-3" src="/img/scooter.png" style={{width: 70, height: 70}} alt="" /></Link><br/>
-                    <p className="fs-4">
-                        Order Online:
-                    </p>
-                        <div className="container d-flex justify-content-center text-center border border-2" style={{borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.09)'}}>
-                <a href="https://www.foodpanda.com/"><img src="/img/foodpandalogo.svg" style={{width: 100, height: 100}} alt="" /></a><br/>
-                <div className="vr mx-5"></div>
-                <a href="https://food.grab.com/"><img src="/img/GrabFoodLogo.svg" style={{width: 100, height: 100}} alt="" /></a><br/>
+                        <Link to="https://www.facebook.com/"><img className="my-3" src="/img/scooter.png" style={{ width: 70, height: 70 }} alt="" /></Link><br />
+                        <p className="fs-4">
+                            Order Online:
+                        </p>
+                        <div className="container d-flex justify-content-center text-center border border-2" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.09)' }}>
+                            <a href="https://www.foodpanda.com/"><img src="/img/foodpandalogo.svg" style={{ width: 100, height: 100 }} alt="" /></a><br />
+                            <div className="vr mx-5"></div>
+                            <a href="https://food.grab.com/"><img src="/img/GrabFoodLogo.svg" style={{ width: 100, height: 100 }} alt="" /></a><br />
                         </div>
                     </div>
-                    <hr className="w-75 mx-auto my-5 d-block d-md-none"/>
+                    <hr className="w-75 mx-auto my-5 d-block d-md-none" />
 
-                    <div className="vr mx-5 d-none d-md-block" style={{ opacity: 150}}></div>
+                    <div className="vr mx-5 d-none d-md-block" style={{ opacity: 150 }}></div>
                     <div className="container mt-4">
                         <div className="container text-center" >
-                        <a href="https://facebook.com/"><img className="img-fluid mx-2" src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png" style={{width: 60}}/></a>
-                        <a href="https://instagram.com/"><img className="img-fluid mx-2" src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" style={{width: 60}}/></a>
+                            <a href="https://facebook.com/"><img className="img-fluid mx-2" src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png" style={{ width: 60 }} /></a>
+                            <a href="https://instagram.com/"><img className="img-fluid mx-2" src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" style={{ width: 60 }} /></a>
                         </div>
                         <p className="mt-5 text-center fs-1">
                             Visit Us!
                         </p>
                     </div>
 
-                    <hr className="w-75 mx-auto my-5 d-block d-md-none"/>
+                    <hr className="w-75 mx-auto my-5 d-block d-md-none" />
 
-                        <div className="vr mx-1 d-none d-md-block" style={{ opacity: 150}}></div>
-                        <div className="container text-center my-5">
-                        <img src="https://img.icons8.com/color/48/000000/discount--v1.png"/>
+                    <div className="vr mx-1 d-none d-md-block" style={{ opacity: 150 }}></div>
+                    <div className="container text-center my-5">
+                        <img src="https://img.icons8.com/color/48/000000/discount--v1.png" />
                         <p className="mt-4 text-center">
                             Promos ending soon! Hurry up!
                         </p>
                     </div>
                 </div>
             </div>
+
         </>
     )
 }
