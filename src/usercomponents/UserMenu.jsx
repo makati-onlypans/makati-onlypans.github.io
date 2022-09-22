@@ -43,7 +43,7 @@ export default function UserMenu() {
                                                 <div className="col-sm-12">
                                                     <ul className="list-group text-center">
                                                     <div className="container d-flex mt-4 justify-content-between">
-                                                        <p className=" w-25 card-text text-white fs-3 fw-bold bg-dark" style={{border: '1px solid rgba(0, 0, 0, 0.7)', borderRadius: 50}}>₱ {data.price}</p>
+                                                        <p className="card-text text-white fs-3 fw-bold bg-dark" style={{border: '1px solid rgba(0, 0, 0, 0.7)', borderRadius: 50, width: 130}}>₱ {data.price}</p>
                                                         <Link variant="danger" to={`/usermenu/view/${data.id}`}>
                                                             <Button className='fs-5 fw-bold' variant="danger" onClick={handleClose}>
                                                                 See Details
