@@ -26,7 +26,7 @@ const UserNavBar = ()=>{
 
     return (
       <div className="container-fluid m-0 p-0">
-<nav className="custom-className-main-nav navbar sticky-top navbar-expand-lg p-3 shadow bg-white borderless">
+<nav className="custom-className-main-nav navbar sticky-top navbar-expand-lg p-3 shadow bg-white borderless px-5">
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -48,7 +48,7 @@ const UserNavBar = ()=>{
           <Link to="/useraboutus" id="custom-className-hover-a" className="fs-5 nav-link" onClick={onAboutUs}>About Us</Link>
         </li>
       
-        <li className="custom-className-dropdown nav-item dropdown">
+        {/* <li className="custom-className-dropdown nav-item dropdown">
         <a className=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" fill="red" className="bi bi-person-square" viewBox="0 0 16 16">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -67,7 +67,7 @@ const UserNavBar = ()=>{
               </Link>
               </li>
         </ul>
-      </li>
+      </li> */}
     </ul>
     </div>
 </nav>

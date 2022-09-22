@@ -11,7 +11,7 @@ li{
 	list-style-type: none;
   }
 .custom-className-navbar-gap{
-  gap: 150px;
+  gap: 100px;
 }
 @media all and (min-width: 992px) {
 	.navbar .dropdown-menu-end{ right:0; left: auto;  }

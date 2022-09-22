@@ -37,6 +37,7 @@ export default function UserView() {
                 <div className="container mb-5" style={{ borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 400 }}></div>
                 <div className="container mb-5">
                     <div className="row justify-content-center">
+                    <div className="container">
                         <div className="card my-2 border-danger shadow-lg">
                             <div className="card-body">
                                 <div className="row align-items-center">
@@ -59,6 +60,7 @@ export default function UserView() {
                             </div>
 
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
