@@ -45,7 +45,7 @@ export default function UserView() {
                                         {/* <img style={{ width: 300, height: 300 }} src={photo} alt="logo" /> */}
                                     </div>
                                     <div className="col-md-6 align-text-top form-floating">
-                                        <h3 className="viewfonttitle text-white bg-dark text-center">{name}</h3>
+                                        <h3 className="viewfonttitle text-white bg-dark text-center" style={{borderRadius: 18}}>{name}</h3>
                                         <p className='fs-5 mt-3 p-2'>{description}</p>
                                         <p className='fs-5 mt-3 p-2'>Price: <b>₱{price}</b></p>
                                         {/* <p className='fs-5'>Category:{departmentName}</p> */}
