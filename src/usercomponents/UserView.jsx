@@ -34,7 +34,7 @@ export default function UserView() {
             <div className="container-fluid mx-0 p-0">
                 <UserNavBar />
                 <h1 className="AdminHeading text-center mt-5 mb-4">Menu Details</h1>
-                <div className="container mb-5" style={{ borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 320 }}></div>
+                <div className="container mb-5" style={{ borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 400 }}></div>
                 <div className="container mb-5">
                     <div className="row justify-content-center">
                         <div className="card my-2 border-danger shadow-lg">
@@ -45,12 +45,12 @@ export default function UserView() {
                                         {/* <img style={{ width: 300, height: 300 }} src={photo} alt="logo" /> */}
                                     </div>
                                     <div className="col-md-6 align-text-top form-floating">
-                                        <h3>{name}</h3>
-                                        <p className='fs-5 mt-3'>{description}</p>
-                                        <p className='fs-5 mt-3'>Price:P{price}</p>
+                                        <h3 className="viewfonttitle text-white bg-dark text-center" style={{borderRadius: 18}}>{name}</h3>
+                                        <p className='fs-5 mt-3 p-2'>{description}</p>
+                                        <p className='fs-5 mt-3 p-2'>Price: <b>₱{price}</b></p>
                                         {/* <p className='fs-5'>Category:{departmentName}</p> */}
                                         <Link variant="danger" to='/usermenu'>
-                                            <Button variant="danger">
+                                            <Button className="fw-bold fs-5" variant="danger">
                                                 Back to Menu
                                             </Button>
                                         </Link>

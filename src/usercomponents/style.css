@@ -1,10 +1,11 @@
 .AdminHeading {
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 600;
     background: #FF0B02;
     background: linear-gradient(to right, #FF0B02 0%, #AD120F 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Dancing Script', cursive;
 }
 
 /* image animation start */
@@ -49,6 +50,10 @@
 }
 
 /* image animation end */
+
+.titlefont {
+font-family: 'Rubik Dirt', cursive;
+}
 
 /* events start */
 .cardI {
@@ -146,3 +151,19 @@
 
 
 /* events end */
+
+/* AboutUs style start */
+.amongus{
+    font-family: 'Anton', sans-serif;
+}
+
+/* AboutUs style end */
+
+/* View style start */
+
+.viewfonttitle{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 50px;
+}
+
+/* View style end */
