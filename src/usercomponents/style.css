@@ -50,6 +50,10 @@
 
 /* image animation end */
 
+.titlefont {
+font-family: 'Rubik Dirt', cursive;
+}
+
 /* events start */
 .cardI {
     transition: 0.5s;

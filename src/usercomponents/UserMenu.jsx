@@ -34,6 +34,7 @@ export default function UserMenu() {
                             user.map((data) => (
                                 <div className="col-md-4 container1">
                                     <div className="card my-2 shadow-lg border-danger">
+                                            <h5 className="titlefont card-title mb-1 fs-2 bg-dark text-white text-center py-4" style={{borderTopLeftRadius: 5, borderTopRightRadius: 5}}>{data.name}</h5>
                                         <div className="card-body">
                                             <div className="align-items-center">
                                                 <div className="col-sm-12">
@@ -41,14 +42,14 @@ export default function UserMenu() {
                                                 </div>
                                                 <div className="col-sm-12">
                                                     <ul className="list-group text-center">
-                                                        <h5 className="card-title mb-1 fs-4">{data.name}</h5>
-                                                        {/* <p class="col card-text">{data.description}</p> */}
-                                                        <p class="col card-text fs-5">P{data.price}</p>
+                                                    <div className="container d-flex mt-4 justify-content-between">
+                                                        <p className=" w-25 card-text text-white fs-3 fw-bold bg-dark" style={{border: '1px solid rgba(0, 0, 0, 0.7)', borderRadius: 50}}>₱ {data.price}</p>
                                                         <Link variant="danger" to={`/usermenu/view/${data.id}`}>
-                                                            <Button variant="danger" onClick={handleClose}>
+                                                            <Button className='fs-5 fw-bold' variant="danger" onClick={handleClose}>
                                                                 See Details
                                                             </Button>
                                                         </Link>
+                                                        </div>
                                                     </ul>
                                                 </div>
                                                 <div className="col-sm-12 d-flex gap-3 justify-content-center align-items-center">
@@ -63,7 +64,6 @@ export default function UserMenu() {
                     </div>
                 </div>
             </div >
-
             <UserFooter />
         </>
     )
