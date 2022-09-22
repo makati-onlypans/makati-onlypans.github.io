@@ -7,8 +7,19 @@ import { getAllUsers } from "../service/api";
 import './style.css'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+
+const userInitialState = {
+    name: "",
+    description: "",
+    price: "",
+    photo: "",
+    departmentName: ""
+}
+
+var globaldataid = '';
+
 export default function UserMenu() {
-    const [user, setUser] = useState([]);
+    const [products, setUser] = useState([]);
     useEffect(() => {
         getUsers();
     }, [])
@@ -17,20 +28,29 @@ export default function UserMenu() {
         console.log(response);
         setUser(response.data);
     }
+
+
+
+
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+
+
+
 
     return (
         <>
             <UserNavBar />
             <div className='container'>
                 <h1 className="AdminHeading text-center mt-5 mb-4">Menu List</h1>
-                <div className="container mb-5" style={{borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 250}}></div>
+                <div className="container mb-5" style={{ borderBottom: '12px solid rgba(0, 0, 0, 0.8)', borderRadius: 25, width: 250 }}></div>
                 <div className="container mb-5">
                     <div className="row">
                         {
-                            user.map((data) => (
+                            products.map((data) => (
+                                globaldataid = data.id  
                                 <div className="col-md-4 container1">
                                     <div className="card my-2 shadow-lg border-danger">
                                         <div className="card-body">
