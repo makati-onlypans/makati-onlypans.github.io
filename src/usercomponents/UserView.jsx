@@ -29,9 +29,6 @@ export default function UserView() {
         loadUserData();
     }, []);
 
-
-
-
     return (
         <>
             <div className="container-fluid mx-0 p-0">
