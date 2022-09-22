@@ -5,6 +5,9 @@ import { getAllUsers } from '../service/api';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import './style.css'
+import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
+
 const userInitialState = {
     name: "",
     description: "",
@@ -12,6 +15,7 @@ const userInitialState = {
     photo: "",
     departmentName: ""
 }
+
 
 export default function UserView() {
     const [user, setUser] = useState(userInitialState);
@@ -24,6 +28,9 @@ export default function UserView() {
     useEffect(() => {
         loadUserData();
     }, []);
+
+
+
 
     return (
         <>
@@ -44,9 +51,15 @@ export default function UserView() {
                                         <p className='fs-5 mt-3'>{description}</p>
                                         <p className='fs-5 mt-3'>Price:P{price}</p>
                                         {/* <p className='fs-5'>Category:{departmentName}</p> */}
+                                        <Link variant="danger" to='/usermenu'>
+                                            <Button variant="danger">
+                                                Back to Menu
+                                            </Button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

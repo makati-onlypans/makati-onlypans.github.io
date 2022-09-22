@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import UserFooter from "./UserFooter";
 import UserNavBar from "./UserNavBar";
-// import { Link } from "react-router-dom";
 import Image from 'react-bootstrap/Image';
 import { getAllUsers } from "../service/api";
 import './style.css'
 import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
 import { Link } from 'react-router-dom';
-import Viewuser from '../components/ViewUser';
 export default function UserMenu() {
     const [user, setUser] = useState([]);
     useEffect(() => {
@@ -21,8 +18,8 @@ export default function UserMenu() {
     }
 
 
-    // const [show, setShow] = useState(false);
-    // const handleClose = () => setShow(false);
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
     // const handleShow = () => setShow(true);
 
     return (
@@ -48,31 +45,13 @@ export default function UserMenu() {
                                                         {/* <p class="col card-text">{data.description}</p> */}
                                                         <p class="col card-text fs-5">P{data.price}</p>
                                                         <Link variant="danger" to={`/usermenu/view/${data.id}`}>
-                                                            See details
+                                                            <Button variant="danger" onClick={handleClose}>
+                                                                See Details
+                                                            </Button>
                                                         </Link>
-                                                        {/* {
-                                                           
-                                                            <Modal show={show} onHide={handleClose}>
-                                                            <Modal.Header closeButton>
-                                                                <Modal.Title>{data.name}</Modal.Title>
-                                                            </Modal.Header>
-                                                            <Modal.Body>
-                                                                <Image className='img-fluid mb-2' rounded src={data.photo} alt="logo" />
-                                                                <p className="col card-text">{data.description}</p>
-                                                                <p className="col card-text">P{data.price}</p>
-                                                            </Modal.Body>
-                                                            <Modal.Footer>
-                                                                <Button variant="danger" onClick={handleClose}>
-                                                                    Close
-                                                                </Button>
-                                                            </Modal.Footer>
-                                                            </Modal>
-                                                        } */}
-
                                                     </ul>
                                                 </div>
                                                 <div className="col-sm-12 d-flex gap-3 justify-content-center align-items-center">
-
                                                 </div>
                                             </div>
                                         </div>
