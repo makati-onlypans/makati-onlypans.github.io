@@ -29,9 +29,6 @@ export default function UserView() {
         loadUserData();
     }, []);
 
-
-
-
     return (
         <>
             <div className="container mt-3">
