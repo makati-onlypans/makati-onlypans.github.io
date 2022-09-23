@@ -149,6 +149,13 @@ font-family: 'Rubik Dirt', cursive;
     opacity: 0.7;
 }
 
+.eventT{
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+.eventP{
+    word-spacing: 8px;
+}
 
 /* events end */
 

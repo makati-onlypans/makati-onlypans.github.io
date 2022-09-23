@@ -16,7 +16,7 @@ const Componentroute = () => {
             <Route index element={<Home/>}/>
             <Route path='/home' element={<Home/>}/>
             <Route path='/add' element={<Adduser/>}/>
-            <Route path='/all' element={<Allusers/>}/>
+            <Route path='/admin' element={<Allusers/>}/>
             <Route path='/useraboutus' element={<UserAboutUs/>}/>
             <Route path='/userevents' element={<UserEvents/>}/>
             <Route path='/usermenu' element={<UserMenu/>}/>

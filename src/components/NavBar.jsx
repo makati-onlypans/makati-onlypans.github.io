@@ -8,7 +8,7 @@ const Navbar = () => {
                 <Link to="/" className="navbar-brand h1">
                     <i className="fa fa-home"></i>Home
                 </Link>
-                <Link to="/all" className='navbar-toggler text-decoration-none'>
+                <Link to="/admin" className='navbar-toggler text-decoration-none'>
                     <i className="fa fa-user"></i>View All
                 </Link>
                 <Link to="/add" className='navbar-toggler text-decoration-none'>

@@ -7,25 +7,27 @@ export default function UserEvents() {
     return (
         <>
             <UserNavBar />
-            <div className="container p-5 rounded-top rounded-3 shadow-lg mt-5 mb-5">
+            <div className="container p-4 rounded-top rounded-3 shadow-lg mt-5 mb-5">
                 <div>
-                    <div className="text-center mb-5 p-5">
-                        <p className="fw-bold fs-3 eventT border border-0">LEGENDARY EVENTS, STUNNING CELEBRATIONS, WORTHY CAUSES</p>
-                        <p className="fw-bold eventP">Once upon a time, in a beige office conference room far far away, bored
+                    <div className="text-center mb-3 p-5 " style={{ borderTopLeftRadius: 10, borderTopRightRadius: 10, backgroundColor: 'rgba(205, 0, 0, .8)' }}>
+                        <p className="fw-bold fs-1 eventT text-white">LEGENDARY EVENTS, &nbsp;STUNNING CELEBRATIONS, &nbsp;WORTHY CAUSES</p>
+                        <hr className="w-100 text-white mx-auto my-4" />
+                        <p className="fw-bold eventT eventP text-light w-75 fs-5 mx-auto">Once upon a time, in a beige office conference room far far away, bored
                             employees
                             gathered over cold sandwiches pausing their conversation only to clap politely at their bored boss.
                             They
                             thought to themselves, “Do events always have to be so...boring!?”
                             No, they don't!</p>
-                        <p className="eventP">At onlypans we bring you both mouth-watering, stomach-filling, mexican delights while
+                        <p className="eventT eventP text-white w-75 fs-5 mx-auto">At onlypans we bring you both mouth-watering, stomach-filling, mexican delights while
                             enjoying the
                             music-filled environment while hanging out with fun-loving, music-vibing generation. In addition, we
                             join us one with the nation in holding worthy causes to help those in need.
                         </p>
-                        <p className="fw-bold fs-3 eventT">WATCH THIS PAGE TO JOIN US IN OUR EVENTS AND CAUSES</p>
+                        <hr className="w-100 text-white mx-auto my-4" />
+                        <p className="fw-bold fs-3 eventP eventT text-white">WATCH THIS PAGE TO JOIN US IN OUR EVENTS AND CAUSES</p>
                     </div>
 
-                    <div className="container-fluid ">
+                    <div className="container-fluid">
 
                         <div className="row m-2 d-flex flex-md-row flex-sm-column flex-align-items-center justify-content-evenly eventTwo">
                             <div className="col">

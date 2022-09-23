@@ -27,7 +27,7 @@ const Adduser = () => {
     let navigate = useNavigate();
     const addUserDetails = async () => {
         await addUser(user);
-        navigate('/all');
+        navigate('/admin');
     }
     //get department
     const [deptName, setDept] = useState([]);
