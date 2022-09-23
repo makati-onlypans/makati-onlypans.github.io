@@ -35,7 +35,7 @@ export default function UserEvents() {
                                     <div className="row g-0">
                                         <div className="col-md-12">
                                             <img src="/img/Events/Events 1/Event A resized.png"
-                                                className="img-fluid rounded-start content_img" alt="poster" />
+                                                className="img-fluid rounded-start content_img" alt="poster"  style={{border: '5px solid rgba(0, 0, 0, 0.7)', borderRadius: 10}}/>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="card-body card-event">
@@ -62,7 +62,7 @@ export default function UserEvents() {
                                     <div className="row g-0">
                                         <div className="col-md-12">
                                             <img src="/img/Events/Events 3/Pop Up resized.png"
-                                                className="img-fluid rounded-start content_img" alt="events" />
+                                                className="img-fluid rounded-start content_img" alt="events"  style={{border: '5px solid rgba(0, 0, 0, 0.7)', borderRadius: 10}}/>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="card-body card-event">
@@ -99,7 +99,7 @@ export default function UserEvents() {
                                     <div className="row g-0">
                                         <div className="col-md-12">
                                             <img src="/img/Events/Events 2/Typhoon Odette.png"
-                                                className="img-fluid content_img rounded-start" alt="poster" />
+                                                className="img-fluid content_img rounded-start" alt="poster"  style={{border: '5px solid rgba(0, 0, 0, 0.7)', borderRadius: 10}}/>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="card-body card-event">
@@ -127,7 +127,7 @@ export default function UserEvents() {
                                     <div className="row g-0">
                                         <div className="col-md-12">
                                             <img src="/img//Events/Events 2/Pride Month resized.png"
-                                                className="img-fluid content_img rounded-start" alt="events" />
+                                                className="img-fluid content_img rounded-start" alt="events"  style={{border: '5px solid rgba(0, 0, 0, 0.7)', borderRadius: 10}}/>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="card-body card-event">
