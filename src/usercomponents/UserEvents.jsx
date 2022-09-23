@@ -24,7 +24,7 @@ export default function UserEvents() {
                             join us one with the nation in holding worthy causes to help those in need.
                         </p>
                         <hr className="w-100 text-white mx-auto my-4" />
-                        <p className="fw-bold fs-3 eventP eventT text-white">WATCH THIS PAGE TO JOIN US IN OUR EVENTS AND CAUSES</p>
+                        <p className="fw-bold fs-3 eventT text-white">JOIN US IN OUR EVENTS AND CAUSES</p>
                     </div>
 
                     <div className="container-fluid">
