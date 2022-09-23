@@ -79,9 +79,9 @@ function UserHome() {
                             Order Online:
                         </p>
                         <div className="container d-flex justify-content-center text-center border border-2" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.09)' }}>
-                            <a href="https://www.foodpanda.com/"><img src="/img/foodpandalogo.svg" style={{ width: 100, height: 100 }} alt="" /></a><br />
+                            <a href="https://www.foodpanda.ph/restaurant/j5oj/onlypans-taqueria?fbclid=IwAR3goy-k2e684ob48wgGMnWWlVNdfEOGsv1jieacVKHkjsj-SqFdMZ8Cjjk"><img src="/img/foodpandalogo.svg" style={{ width: 100, height: 100 }} alt="" /></a><br />
                             <div className="vr mx-5"></div>
-                            <a href="https://food.grab.com/"><img src="/img/GrabFoodLogo.svg" style={{ width: 100, height: 100 }} alt="" /></a><br />
+                            <a href="https://food.grab.com/ph/en/restaurant/onlypans-taqueria-poblacion-available-for-long-distance-delivery-delivery/2-C3AYC8CJMGJUHE"><img src="/img/GrabFoodLogo.svg" style={{ width: 100, height: 100 }} alt="" /></a><br />
                         </div>
                     </div>
                     <hr className="w-75 mx-auto my-5 d-block d-md-none" />
@@ -89,8 +89,8 @@ function UserHome() {
                     <div className="vr mx-5 d-none d-md-block" style={{ opacity: 150 }}></div>
                     <div className="container mt-4">
                         <div className="container text-center" >
-                            <a href="https://facebook.com/"><img className="img-fluid mx-2" src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png" style={{ width: 60 }} /></a>
-                            <a href="https://instagram.com/"><img className="img-fluid mx-2" src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" style={{ width: 60 }} /></a>
+                            <a href="https://www.facebook.com/onlypansph"><img className="img-fluid mx-2" src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png" style={{ width: 60 }} /></a>
+                            <a href="https://www.instagram.com/onlypanspoblacion/?hl=en&fbclid=IwAR0C_9yi4DyvZnjXOmpH3dqxYZDJCQ_9R3Ru5kqrXOJxDL4O3Jy06OXkyCs"><img className="img-fluid mx-2" src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" style={{ width: 60 }} /></a>
                         </div>
                         <p className="mt-5 text-center fs-1">
                             Visit Us!
