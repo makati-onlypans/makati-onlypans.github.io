@@ -7,9 +7,9 @@ export default function UserEvents() {
     return (
         <>
             <UserNavBar />
-            <div className="container p-4 rounded-top rounded-3 shadow-lg mt-5 mb-5">
+            <div className="container p-5 rounded-top rounded-3 shadow-lg mt-5 mb-5">
                 <div>
-                    <div className="text-center mb-3 p-5 " style={{ borderTopLeftRadius: 10, borderTopRightRadius: 10, backgroundColor: 'rgba(205, 0, 0, .8)' }}>
+                    <div className="text-center mb-3 p-5 " style={{ borderTopLeftRadius: 10, borderTopRightRadius: 10, backgroundColor: 'rgba(165, 0, 0, .8)' }}>
                         <p className="fw-bold fs-1 eventT text-white">LEGENDARY EVENTS, &nbsp;STUNNING CELEBRATIONS, &nbsp;WORTHY CAUSES</p>
                         <hr className="w-100 text-white mx-auto my-4" />
                         <p className="fw-bold eventT eventP text-light w-75 fs-5 mx-auto">Once upon a time, in a beige office conference room far far away, bored
