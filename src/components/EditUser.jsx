@@ -38,7 +38,7 @@ const Edituser = () => {
 
     const editUserDetails = async () => {
         await editUser(id, user);
-        navigate('/all');
+        navigate('/admin');
     }
     //get department
     const [deptName, setDept] = useState([]);

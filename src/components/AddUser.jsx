@@ -43,7 +43,7 @@ const Adduser = () => {
 
 
     return (
-        <div className="container mt-3">
+        <div className="container">
             <Navbar />
             <h1 className="fs-1 text-center mt-5">Add Menu Items</h1>
             <hr className='mb-5'/>
@@ -115,7 +115,7 @@ const Adduser = () => {
                                     }
                                 </Form.Select>
                             </div>
-                            <div className="mt-2 mb-2">
+                            <div className="mt-2 mb-2 d-flex justify-content-end">
                                 <input type="sumbit" className="btn btn-danger" value="Create" onClick={() => addUserDetails()} />
                             </div>
                         </div>
