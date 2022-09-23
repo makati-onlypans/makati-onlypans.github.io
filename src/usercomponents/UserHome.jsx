@@ -13,10 +13,10 @@ function UserHome() {
             <div className="container sectionOneFavorite">
                 <div className="row d-flex flex-md-row flex-column mt-5 mb-5 ">
                     <div className="col imgFavorite1">
-                        <img src="/img/Menu/Home/quesabirriataco.png" className="card-img-top container1" alt="..." style={{border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10}}/>
+                        <img src="/img/Menu/Home/quesabirriataco.png" className="card-img-top container1" alt="..." style={{ border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
                     </div>
                     <div className="col">
-                        <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-start text-center mt-3 mt-md-0" style={{borderRadius: 5}}>Quesa Birria Taco</h5>
+                        <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-start text-center mt-3 mt-md-0" style={{ borderRadius: 5 }}>Quesa Birria Taco</h5>
                         <p className="textFavorite text-md-start text-center">Easily our best seller, everyone who comes to OnlyPans come to have a taste of
                             this delectible dish.</p>
                         <p className="textFavorite text-md-start text-center">To serve this dish USDA beef is slowly cooked in authentic mexican chills and 16
@@ -28,7 +28,7 @@ function UserHome() {
 
                 <div className="row d-flex flex-md-row flex-column mt-5 mb-5 pt-3" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.08)' }}>
                     <div className="col ">
-                        <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-end text-center" style={{borderRadius: 5}}>Cartinas Taco</h5>
+                        <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-end text-center" style={{ borderRadius: 5 }}>Cartinas Taco</h5>
                         <p className="textFavorite text-md-end text-center">For those who opt to savor the flavor of pork we have Cartinas Taco to satisfy
                             your cravings.</p>
                         <p className="textFavorite text-md-end text-center">Made from slow cooked top grade pork meat aat our house special recipe, topped
@@ -36,16 +36,16 @@ function UserHome() {
                         <p className="textFavorite text-md-end text-center">Truly, Cartinas Taco is an experience you will never forget.</p>
                     </div>
                     <div className="col imgFavorite2 mb-3">
-                        <img src="/img/Menu/Home/carnitastaco.png" className="card-img-top" alt="..." style={{border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10}}/>
+                        <img src="/img/Menu/Home/carnitastaco.png" className="card-img-top container1" alt="..." style={{ border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
                     </div>
                 </div>
 
                 <div className="row d-flex flex-md-row flex-column mt-5 mb-5 ">
                     <div className="col imgFavorite1">
-                        <img src="/img/Menu/Home/camaronshrimptostadas.png" className="card-img-top img-fluid" alt="..." style={{border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10}}/>
+                        <img src="/img/Menu/Home/camaronshrimptostadas.png" className="card-img-top img-fluid container1" alt="..." style={{ border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
                     </div>
                     <div className="col">
-                        <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-start text-center mt-3 mt-md-0" style={{borderRadius: 5}}>Camaron Tostadas</h5>
+                        <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-start text-center mt-3 mt-md-0" style={{ borderRadius: 5 }}>Camaron Tostadas</h5>
                         <p className="textFavorite text-md-start text-center">We you are a seafood type of person Camaron Tostadas will definitely suite your
                             tastebud.</p>
                         <p className="textFavorite text-md-start text-center">This selection is cooked with fresh shrimp in house special marinade, dipped in
@@ -56,7 +56,7 @@ function UserHome() {
 
                 <div className="row d-flex flex-md-row flex-sm-column mt-5 mb-5 pt-2" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.08)' }}>
                     <div className="col ">
-                        <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-end text-center" style={{borderRadius: 5}}>Quesadillas</h5>
+                        <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-end text-center" style={{ borderRadius: 5 }}>Quesadillas</h5>
                         <p className="textFavorite text-md-end text-center">After experiencing our best seller you might want to venture into our other
                             choices. Quesadillas is definitely one of our best.</p>
                         <p className="textFavorite text-md-end text-center">Made with soft tortillas with your choice of meat filled with cheese and spices,
@@ -65,7 +65,7 @@ function UserHome() {
                             would not get tired of it.</p>
                     </div>
                     <div className="col imgFavorite2 mb-3">
-                        <img src="/img/Menu/Home/quesadillas.png" className="card-img-top" alt="..." style={{border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10}}/>
+                        <img src="/img/Menu/Home/quesadillas.png" className="card-img-top container1" alt="..." style={{ border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
                     </div>
                 </div>
 
@@ -101,7 +101,7 @@ function UserHome() {
 
                     <div className="vr mx-1 d-none d-md-block" style={{ opacity: 150 }}></div>
                     <div className="container text-center my-5">
-                        <img src="https://img.icons8.com/color/48/000000/discount--v1.png" style={{width: 70}}/>
+                        <img src="https://img.icons8.com/color/48/000000/discount--v1.png" style={{ width: 70 }} />
                         <p className="mt-4 text-center fs-4">
                             Promos ending soon! Hurry up!
                         </p>
