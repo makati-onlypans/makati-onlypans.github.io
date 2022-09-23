@@ -39,6 +39,9 @@ const UserNavBar = ()=>{
       </ul>
       <ul className="custom-className-navbar-gap navbar-nav mb-2 mb-lg-0">
         <li className="nav-item text-center">
+          <Link to="/home" id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onHome}><i class="fa-solid fa-house"></i> Home</Link>
+        </li>
+        <li className="nav-item text-center">
           <Link to="/usermenu" id="custom-className-hover-a" className="fs-5 nav-link" aria-current="page" onClick={onMenu}><i class="fa-solid fa-utensils"></i> Menu</Link>
         </li>
         <li className="nav-item text-center">
