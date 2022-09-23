@@ -54,7 +54,7 @@ function UserHome() {
                     </div>
                 </div>
 
-                <div className="row d-flex flex-md-row flex-sm-column mt-5 mb-5 pt-2" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.08)' }}>
+                <div className="row d-flex flex-md-row flex-column mt-5 mb-5 pt-2" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.08)' }}>
                     <div className="col ">
                         <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-end text-center" style={{borderRadius: 5}}>Quesadillas</h5>
                         <p className="textFavorite text-md-end text-center">After experiencing our best seller you might want to venture into our other
