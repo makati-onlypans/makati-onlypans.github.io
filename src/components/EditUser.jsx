@@ -55,7 +55,8 @@ const Edituser = () => {
     return (
         <div className="container mt-3">
             <Navbar />
-            <h1 className="AdminHeading">Edit Menu</h1>
+            <h1 className="text-center mt-5 fw-bold">Edit Menu</h1>
+            <hr className='mb-5'/>
             <form>
                 <div className='container row g-0 d-flex flex-lg-row flex-md-column justify-content-center'>
                     <div className='col-lg-4 col-md-12 pt-4'>

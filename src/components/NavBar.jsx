@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-light bg-light container">
+        <div className="container-fluid m-0 p-0">
+        <nav className="navbar navbar-light bg-light container-fluid">
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand h1">
                     <i className="fa fa-home"></i>Home
@@ -15,6 +16,7 @@ const Navbar = () => {
                 </Link>
             </div>
         </nav>
+    </div>
     );
 }
 

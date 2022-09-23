@@ -45,7 +45,8 @@ const Adduser = () => {
     return (
         <div className="container mt-3">
             <Navbar />
-            <h1 className="AdminHeading">Add Menu Items</h1>
+            <h1 className="fs-1 text-center mt-5">Add Menu Items</h1>
+            <hr className='mb-5'/>
             <div className='card border-danger shadow-lg'>
                 <div className="col-md-12">
                     <form className='m-3 p-2'>

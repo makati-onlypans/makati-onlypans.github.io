@@ -23,10 +23,11 @@ const Allusers = () => {
     return (
         <div className='container'>
             <Navbar />
-            <h1 className="AdminHeading">All Records</h1>
-            <div className="container">
-                <Link className='btn btn-danger mb-2' to={'/add'}><i className="fa fa-plus-circle"></i> Add Menu</Link>
-                {/* <form>
+            <h1 className="fs-1 text-center mt-5">All Records</h1>
+            <hr className='mb-5'/>
+            {/* <div className="container text-center">
+                <Link className='btn btn-danger mb-2 fs-3' to={'/add'}><i className="fa fa-plus-circle"></i> Add Menu</Link>
+                <form>
                     <div className="row mb-5">
                         <div className="col-md-6">
                             <div className="row">
@@ -39,8 +40,8 @@ const Allusers = () => {
                             </div>
                         </div>
                     </div>
-                </form> */}
-            </div>
+                </form>
+            </div> */}
             <div className="container">
                 <div className="row">
                     {
