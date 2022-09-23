@@ -106,30 +106,30 @@ export default function UserAboutUs() {
                 <div className="container d-flex flex-column gap-5 p-3" style={{ borderRadius: 15, backgroundColor: 'rgba(52, 52, 52, 0.02)', width: 900 }}>
                     <div className="container d-flex justify-content-start align-items-center">
                         <div className="">
-                            <img className="mx-3" src="/img/opdp2.png" alt="" style={{ width: 110, borderRadius: 100 }} />
+                            <img className="mx-3" src="/img/opdp2.png" alt="" style={{ width: 130, borderRadius: 100 }} />
                         </div>
                         <div className="vr mx-5" style={{ width: 5, color: "red", opacity: 10 }}></div>
                         <div className="d-flex flex-column">
                             <ul>
-                                <h4 className="fw-bold mb-4">Phyllip Sam Salvador</h4>
+                                <h4 className="fw-bold mb-2">Phyllip Sam Salvador</h4>
                                 <h6 className="p-1" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.2)', width: 120, backgroundColor: 'rgba(255, 0, 0, 0.5)' }}>Web Developer</h6>
-                                <li><p>• Full Stack Web Developer of Makati-Onlypans Restaurant Website</p></li>
-                                <li><p>• BS Accountancy </p></li>
+                                <li><p className="m-0">• Full Stack Web Developer of Makati-Onlypans Restaurant Website</p></li>
+                                <li><p className="m-0">• BS Accountancy </p></li>
                                 <li><p>• Accountant with a heart of a Programmer </p></li>
                             </ul>
                         </div>
                     </div>
                     <div className="container d-flex justify-content-start align-items-center">
                         <div className="">
-                            <img className="mx-3" src="/img/opdp.png" alt="" style={{ width: 110, borderRadius: 100 }} />
+                            <img className="mx-3" src="/img/opdp.png" alt="" style={{ width: 130, borderRadius: 100 }} />
                         </div>
                         <div className="vr mx-5" style={{ width: 5, color: "red", opacity: 10 }}></div>
                         <div className="d-flex flex-column">
                             <ul>
-                                <h4 className="fw-bold mb-4">Russel Jay Buan</h4>
+                                <h4 className="fw-bold mb-2">Russel Jay Buan</h4>
                                 <h6 className="p-1" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.2)', width: 120, backgroundColor: 'rgba(255, 0, 0, 0.5)' }}>Web Developer</h6>
-                                <li><p>• Founder of TheGreenProject</p></li>
-                                <li><p>• Co-Developer of Makati-OnlyPans Website</p></li>
+                                <li><p className="m-0">• Founder of TheGreenProject</p></li>
+                                <li><p className="m-0">• Co-Developer of Makati-OnlyPans Website</p></li>
                                 <li><p>• BS Degree in Information Technology</p></li>
                             </ul>
                         </div>
