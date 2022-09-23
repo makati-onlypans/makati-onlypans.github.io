@@ -9,7 +9,7 @@ export default function UserAboutUs() {
         <div className="container-fluid m-0 p-0">
             <UserNavBar />
 
-            <Carousel>
+            <Carousel  style={{ borderBottom: '3px solid rgba(0, 0, 0, .8)'}}>
                 <Carousel.Item interval={2000}>
                     <img
                         className="d-block w-100"
