@@ -43,7 +43,7 @@ const Viewuser = () => {
                                     <h3>{name}</h3>
                                     <p className='fs-5 mt-3'>{description}</p>
                                     <p className='fs-5 mt-3'>Price:P{price}</p>
-                                    <Link variant="danger" to='/all'>
+                                    <Link variant="danger" to='/admin'>
                                             <Button className="fw-bold fs-5" variant="danger">
                                                 Back to Menu
                                             </Button>
