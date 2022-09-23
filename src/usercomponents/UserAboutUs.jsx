@@ -128,7 +128,7 @@ export default function UserAboutUs() {
                             <ul>
                                 <h4 className="fw-bold mb-2">Russel Jay Buan</h4>
                                 <h6 className="p-1" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.2)', width: 120, backgroundColor: 'rgba(255, 0, 0, 0.5)' }}>Web Developer</h6>
-                                <li><p className="m-0">• Founder of TheGreenProject</p></li>
+                                <li><p className="m-0">• Web Developer of TheGreenProject</p></li>
                                 <li><p className="m-0">• Co-Developer of Makati-OnlyPans Website</p></li>
                                 <li><p>• BS Degree in Information Technology</p></li>
                             </ul>
