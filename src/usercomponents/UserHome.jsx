@@ -99,7 +99,7 @@ function UserHome() {
 
                     <hr className="w-75 mx-auto my-5 d-block d-md-none" />
 
-                    <div className="vr mx-1 d-none d-md-block" style={{ opacity: 150 }}></div>
+                    <div className="vr mx-4 d-none d-md-block" style={{ opacity: 150 }}></div>
                     <div className="container text-center my-5">
                         <img src="https://img.icons8.com/color/48/000000/discount--v1.png" style={{ width: 70 }} />
                         <p className="mt-4 text-center fs-4">
