@@ -13,7 +13,7 @@ function UserHome() {
             <div className="container sectionOneFavorite">
                 <div className="row d-flex flex-md-row flex-column mt-5 mb-5 ">
                     <div className="col imgFavorite1">
-                        <img src="/img/Menu/Home/quesabirriataco.png" className="card-img-top container1" alt="..." style={{ border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
+                        <img src="/img/Menu/Home/quesabirriataco.png" className="card-img-top container1" alt="..." style={{ border: '0px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
                     </div>
                     <div className="col">
                         <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-start text-center mt-3 mt-md-0" style={{ borderRadius: 5 }}>Quesa Birria Taco</h5>
@@ -36,13 +36,13 @@ function UserHome() {
                         <p className="textFavorite text-md-end text-center">Truly, Cartinas Taco is an experience you will never forget.</p>
                     </div>
                     <div className="col imgFavorite2 mb-3">
-                        <img src="/img/Menu/Home/carnitastaco.png" className="card-img-top container1" alt="..." style={{ border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
+                        <img src="/img/Menu/Home/carnitastaco.png" className="card-img-top container1" alt="..." style={{ border: '0px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
                     </div>
                 </div>
 
                 <div className="row d-flex flex-md-row flex-column mt-5 mb-5 ">
                     <div className="col imgFavorite1">
-                        <img src="/img/Menu/Home/camaronshrimptostadas.png" className="card-img-top img-fluid container1" alt="..." style={{ border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
+                        <img src="/img/Menu/Home/camaronshrimptostadas.png" className="card-img-top img-fluid container1" alt="..." style={{ border: '0px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
                     </div>
                     <div className="col">
                         <h5 className="homepic mb-3 bg-dark text-white p-2 fs-3 text-md-start text-center mt-3 mt-md-0" style={{ borderRadius: 5 }}>Camaron Tostadas</h5>
@@ -65,48 +65,10 @@ function UserHome() {
                             would not get tired of it.</p>
                     </div>
                     <div className="col imgFavorite2 mb-3">
-                        <img src="/img/Menu/Home/quesadillas.png" className="card-img-top container1" alt="..." style={{ border: '2px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
+                        <img src="/img/Menu/Home/quesadillas.png" className="card-img-top container1" alt="..." style={{ border: '0px solid rgba(0, 0, 0, 0.7)', borderRadius: 10 }} />
                     </div>
                 </div>
-
-
-
-
-                <div className="container d-md-flex p-5 mb-5" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.05)' }}>
-                    <div className="container text-center">
-                        <Link to="https://www.facebook.com/"><img className="my-3" src="/img/scooter.png" style={{ width: 70, height: 70, borderRadius: 5 }} alt="" /></Link><br />
-                        <p className="fs-4">
-                            Order Online:
-                        </p>
-                        <div className="container d-flex justify-content-center text-center border border-2" style={{ borderRadius: 10, backgroundColor: 'rgba(52, 52, 52, 0.09)' }}>
-                            <a href="https://www.foodpanda.ph/restaurant/j5oj/onlypans-taqueria?fbclid=IwAR3goy-k2e684ob48wgGMnWWlVNdfEOGsv1jieacVKHkjsj-SqFdMZ8Cjjk"><img src="/img/foodpandalogo.svg" style={{ width: 100, height: 100 }} alt="" /></a><br />
-                            <div className="vr mx-5"></div>
-                            <a href="https://food.grab.com/ph/en/restaurant/onlypans-taqueria-poblacion-available-for-long-distance-delivery-delivery/2-C3AYC8CJMGJUHE"><img src="/img/GrabFoodLogo.svg" style={{ width: 100, height: 100 }} alt="" /></a><br />
-                        </div>
-                    </div>
-                    <hr className="w-75 mx-auto my-5 d-block d-md-none" />
-
-                    <div className="vr mx-5 d-none d-md-block" style={{ opacity: 150 }}></div>
-                    <div className="container mt-4">
-                        <div className="container text-center" >
-                            <a href="https://www.facebook.com/onlypansph"><img className="img-fluid mx-2" src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png" style={{ width: 60 }} /></a>
-                            <a href="https://www.instagram.com/onlypanspoblacion/?hl=en&fbclid=IwAR0C_9yi4DyvZnjXOmpH3dqxYZDJCQ_9R3Ru5kqrXOJxDL4O3Jy06OXkyCs"><img className="img-fluid mx-2" src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" style={{ width: 60 }} /></a>
-                        </div>
-                        <p className="mt-5 text-center fs-1">
-                            Visit Us!
-                        </p>
-                    </div>
-
-                    <hr className="w-75 mx-auto my-5 d-block d-md-none" />
-
-                    <div className="vr mx-4 d-none d-md-block" style={{ opacity: 150 }}></div>
-                    <div className="container text-center my-5">
-                        <img src="https://img.icons8.com/color/48/000000/discount--v1.png" style={{ width: 70 }} />
-                        <p className="mt-4 text-center fs-4">
-                            Promos ending soon! Hurry up!
-                        </p>
-                    </div>
-                </div>
+                
             </div>
             <script src="//code.tidio.co/ovhukj0pgjzcrvi6arlddnoklwfdxfvx.js" async></script>
         </>
