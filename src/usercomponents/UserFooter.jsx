@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import './style.css';
 
 export default function UserFooter () {
     return (
@@ -32,14 +32,18 @@ export default function UserFooter () {
                         </li>
                         <li className="mb-3">
                 
-                <div className="container">
-                    <a href="https://www.foodpanda.ph/restaurant/j5oj/onlypans-taqueria?fbclid=IwAR3goy-k2e684ob48wgGMnWWlVNdfEOGsv1jieacVKHkjsj-SqFdMZ8Cjjk"><img src="/img/foodpandalogo.svg" style={{ width: 100, height: 100 }} alt="" /></a>
+                <div className="container d-flex justify-content-around align-items-center m-0 p-0">
+                    <div className="d-flex align-items-center">
+                    <a href="https://www.foodpanda.ph/restaurant/j5oj/onlypans-taqueria?fbclid=IwAR3goy-k2e684ob48wgGMnWWlVNdfEOGsv1jieacVKHkjsj-SqFdMZ8Cjjk"><img className="footericon img-fluid mx-2" src="/img/foodpandalogowhite.png" style={{ width: 100 }} alt="" /></a>
 
-                    <a href="https://food.grab.com/ph/en/restaurant/onlypans-taqueria-poblacion-available-for-long-distance-delivery-delivery/2-C3AYC8CJMGJUHE"><img src="/img/GrabFoodLogo.svg" style={{ width: 100, height: 100 }} alt="" /></a>
-
-                    <a href="https://www.facebook.com/onlypansph"><img className="img-fluid mx-2" src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png" style={{ width: 50 }} /></a>
+                    <a href="https://food.grab.com/ph/en/restaurant/onlypans-taqueria-poblacion-available-for-long-distance-delivery-delivery/2-C3AYC8CJMGJUHE"><img className="footericon img-fluid mx-2" src="/img/GrabFoodLogowhite.png" style={{ width: 50, height: 50 }} alt="" /></a>
+                    </div>
+                    <div className="vr" style={{ width: 2, height: 90, color: "white", opacity: 10 }}></div>
+                    <div>
+                    <a href="https://www.facebook.com/onlypansph"><img className="footericon img-fluid mx-2" src="/img/facebook--v1.png" style={{ width: 50 }} /></a>
                     
-                    <a href="https://www.instagram.com/onlypanspoblacion/?hl=en&fbclid=IwAR0C_9yi4DyvZnjXOmpH3dqxYZDJCQ_9R3Ru5kqrXOJxDL4O3Jy06OXkyCs"><img className="img-fluid mx-2" src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" style={{ width: 50 }} /></a>
+                    <a href="https://www.instagram.com/onlypanspoblacion/?hl=en&fbclid=IwAR0C_9yi4DyvZnjXOmpH3dqxYZDJCQ_9R3Ru5kqrXOJxDL4O3Jy06OXkyCs"><img className="footericon img-fluid mx-2" src="/img/instagramnewv1.png" style={{ width: 50 }} /></a>
+                    </div>
                 </div>
                         </li>
                     </ul>

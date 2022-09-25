@@ -180,3 +180,19 @@ font-family: 'Rubik Dirt', cursive;
     font-family: 'Rubik Dirt', cursive;
 }
 /* Home style end */
+
+/* footer style start */
+
+.footericon {
+    transition: 0.5s;
+    filter: none;
+}
+
+.footericon:hover {
+    transform: translateY(-20%);
+    filter: brightness(-100%);
+
+}
+
+
+/* footer style end */
