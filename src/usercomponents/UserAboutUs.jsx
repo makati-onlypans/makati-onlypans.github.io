@@ -18,8 +18,6 @@ export default function UserAboutUs() {
                     />
                 </Carousel.Item>
 
-
-                
                 <Carousel.Item interval={2000}>
                     <img
                         className="d-block w-100"
