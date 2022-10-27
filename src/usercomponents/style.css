@@ -90,7 +90,7 @@ font-family: 'Rubik Dirt', cursive;
     height: 80px;
 }
 
-*/ .cardI::before,
+.cardI::before,
 .cardI::after {
     position: absolute;
     top: 0;
